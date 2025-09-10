@@ -2,8 +2,8 @@
 class WebSocketManager {
     constructor() {
         this.servers = [
-            { name: 'Sao-Paulo', url: 'Sao-Paulo.littlebigsnake.com', priority: 1, rooms: ['pc','mobile'] },
-            { name: 'Santiago', url: 'Santiago.littlebigsnake.com', priority: 2, rooms: ['pc','mobile'] }
+            { name: 'Sao-Paulo', url: 'Sao-Paulo.littlebigsnake.com', priority: 1 },
+            { name: 'Santiago',  url: 'Santiago.littlebigsnake.com',  priority: 2 }
         ];
 
         this.connections = new Map();
@@ -908,4 +908,4 @@ class OptimizedArenaConnection {
     getLastUpdate() {
         return this.lastUpdate;
     }
-}
+            }
